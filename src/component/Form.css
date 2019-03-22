@@ -1,62 +1,58 @@
-.wrapper{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #258ea6;
-  }
-  .form-wrapper{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 40px;
-    border-radius: 10px;
-    box-shadow: 0px 10px 50px #555;
-    background-color: #ffffff;
-  }
-   form{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  label{
-    font-size: 0.8em;
-    margin-bottom:0.25em;
-    color:#222;
-    font-weight: lightex;
-  }
-  input{
-    padding: 10px 10px;
-    border-radius: 5px;
-    outline: none;
-    border: 1px solid #cfcfcf;
-  }
-  input.error{
-  border: 1px solid red;
-  }
-  
-  .errorMessage{
-    color:red;
-    font-size:0.75em;
-    display:realtive;
-  }
-  .Produit,
-  .Prix,
-  .Description{
-    
-    flex-direction: column;
-    margin-bottom: 15px;
-  }
-  .Ajouter{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .btn-primary{
+.btn-primary{
     margin-bottom: 10px;
 }
 
+#yourBtn{
+    height: 50px; width: 100px;border: 1px dashed #BBB; cursor:pointer; 
+}
+
+
+label{
+    padding: 10px;
+    background: rgb(88, 85, 85); 
+    display: table;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+    padding-top: 5px!important;
+    line-height: 30px;
+}
+#tex{
+    text-transform: lowercase;
+    text-align: center;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    width: 435px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 435px;
+}
+
+#bout{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+form{
+    margin: 30px;
+}
+
+.des{
+    margin-bottom: 200px !important;
+}
+#erreur{
+    color :red;
+}

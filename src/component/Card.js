@@ -6,16 +6,16 @@ import './Card.css'
 const Card = props => (
     <MDBRow>
     <div className="card-deck">    
-        {props.shop.length > 0 ? (                
-            props.shop.map(shop => (
+        {props.Article.length > 0 ? (                
+            props.Article.map(Shop => (
                 <MDBCol md="4">
-                <div className="card" key={shop.id}>
-                    <img src={shop.fich} className="card-img-top" alt="..."></img>
+                <div className="card" key={Shop.id}>
+                    <img src={Shop.file} className="card-img-top" alt="..."></img>
                     <div className="card-body">
-                        <h5 className="card-title">{shop.Produit}</h5>
+                        <h5 className="card-title">{Shop.produit}</h5>
                         <p className="card-text">{
-                            (shop.Description.length > 200)?shop.Description.substring(0, 117).append('...'):shop.Description}</p>
-                        <span id="price">{shop.prix}Ar</span>
+                            (Shop.decription.length > 200)?Shop.decription.substring(0, 117).append('...'):Shop.decription}</p>
+                        <span id="price">{Shop.prix}Ar</span>
                     </div>
                     <div className="card-footer">
                         <span id="heart" value="0"></span> <label id="coeur">❤<input type="button"
