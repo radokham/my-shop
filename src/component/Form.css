@@ -1,0 +1,58 @@
+.btn-primary{
+    margin-bottom: 10px;
+}
+
+#yourBtn{
+    height: 50px; width: 100px;border: 1px dashed #BBB; cursor:pointer; 
+}
+
+
+label{
+    padding: 10px;
+    background: rgb(88, 85, 85); 
+    display: table;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 2px;
+    text-align: center;
+    float: right;
+    margin-top: 10px;
+    padding-top: 5px!important;
+    line-height: 30px;
+}
+#tex{
+    text-transform: lowercase;
+    text-align: center;
+}
+
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="text"] {
+    margin-top: 10px;
+    width: 435px;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 435px;
+}
+
+#bout{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+form{
+    margin: 30px;
+}
+
+.des{
+    margin-bottom: 200px !important;
+}
+#erreur{
+    color :red;
+}

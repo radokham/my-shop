@@ -1,0 +1,22 @@
+#coeur{
+    color: red;
+    font-size: 30px;
+}
+.card{
+    width: 350px;
+    margin-top: 20px;
+}
+
+input[type="button"] {
+    display: none;
+    opacity: 0;
+    background-color: white;
+}
+
+img{
+    width: 300px;
+}
+
+#price{
+    float: right;
+}
